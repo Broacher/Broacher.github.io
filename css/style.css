@@ -1,0 +1,150 @@
+body{
+	background-color: gray;
+}
+
+@font-face {
+    font-family: jumboFont;
+    src: url(../fonts/marguerite.ttf);
+}
+
+@font-face {
+    font-family: jumboFont1;
+    src: url(../fonts/pd.ttf);
+}
+
+@font-face {
+    font-family: jumboFont2;
+    src: url(../fonts/beyond.ttf);
+}
+
+.navbar-inverse .navbar-brand{ /* alters the the navbar brand top left of navbar*/
+	color: #ebe4d2;
+    font-family: jumboFont2;
+    font-size: 35px;
+    font-weight: lighter;
+    letter-spacing: -3px;
+    margin-left: 60px;
+}
+
+.navbar-custom{ /* alters the style of ht navigation bar*/
+	border-radius: 0px;
+	border: none;
+	background-color: rgba(34, 34, 34, 0);
+	margin-top: 15px;
+}
+.navbar{ /*removes the margin at the botton and allows the cover image to flow to the top*/
+	    margin-bottom: -65px;
+}
+
+.navbar-inverse .navbar-nav > li > a { /*Chaanges the color of the buttons in the navbar*/
+	color: #d7d1c3;
+}
+
+.navbar-custom-buttons{
+	margin-right: 20px;
+	font-family: jumboFont1;
+	font-size: 36px;
+}
+
+.lg-rg-nav{ /*plan to change some of the text to make it differ from the main nav buttons*/
+	color: white;
+}
+
+.margins-spacing{
+	margin-left: 210px;
+}
+
+@media (max-width: 1300px){ /*affectin the spacing between nav buttons at different screen resolutions*/
+.margins-spacing{
+	margin-left: 110px;
+}
+}
+
+@media (max-width: 800px){ /*affectin the spacing between nav buttons at different screen resolutions*/
+.margins-spacing{
+	margin-left: 0px;
+}
+}
+
+.jumbotron{ /*changes the background image to an actual image for the jumbotron bck*/
+	background-image: url('../images/jmb.jpg');
+	background-position: center center;
+	background: cover;
+	height: 1100px;
+}
+
+@media (max-width: 1300px){ /*affectin the quote on the jumbotron at different screen resolutions*/
+.jumbotron{ /*changes the background image to an actual image for the jumbotron bck*/
+	background-image: url('../images/jmb.jpg');
+	background-position: center center;
+	background: cover;
+	height: 800px;
+}
+}
+
+.color-bck{ /*allows for changes of color filters to background*/
+	background-color: rgba(0, 0, 0, 0.47);
+    height: 1100px;
+    margin-top: -48px;
+}
+
+@media (max-width: 1300px){ /*affectin the quote on the jumbotron at different screen resolutions*/
+.color-bck{ /*allows for changes of color filters to background*/
+	background-color: rgba(0, 0, 0, 0.47);
+    height: 800px;
+    margin-top: -48px;
+}
+}
+
+
+.jumbotron-text h1{ /*some text that affects the main quote on the jubotron image*/
+	font-size: 160px;
+	color: #ffedda;
+	font-family: jumboFont2;
+	font-weight: lighter;
+	margin-top: 250px;
+	text-align: right;
+}
+
+.jumbotron-text h2{ /*some text that affects the main quote on the jubotron image*/
+	font-size: 68px;
+    color: #f96a6a;
+    font-family: jumboFont2;
+    font-weight: lighter;
+    text-align: left;
+ 
+}
+
+@media (max-width: 1300px){ /*affectin the quote on the jumbotron at different screen resolutions*/
+.jumbotron-text h1{ /*some text that affects the main quote on the jubotron image*/
+	font-size: 120px;
+	color: #ffedda;
+	font-family: jumboFont2;
+	font-weight: lighter;
+	margin-top: 230px;
+	text-align: center;
+}
+}
+
+@media (max-width: 1200px){ /*affectin the quote on the jumbotron at different screen resolutions*/
+.jumbotron-text h1{ /*some text that affects the main quote on the jubotron image*/
+	font-size: 90px;
+	color: #ffedda;
+	font-family: jumboFont2;
+	font-weight: lighter;
+	margin-top: 250px;
+	text-align: center;
+}
+}
+
+@media (max-width: 620px){ /*affectin the quote on the jumbotron at different screen resolutions*/
+.jumbotron-text h1{ /*some text that affects the main quote on the jubotron image*/
+    font-size: 60px;
+    color: #ffedda;
+    font-family: jumboFont2;
+    font-weight: lighter;
+    margin-top: 140px;
+    text-align: center;
+}
+}
+
